@@ -1,4 +1,4 @@
-word = input()
+word = "man"
 word = word.upper()
 print(word)
 
