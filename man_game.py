@@ -16,7 +16,7 @@ while True :
     
     if result == -1 :
         print("오답")
-        try_num +=1 
+        try_num += 1 
         no_list.append(ans)
     else :
         print("정답")
@@ -26,5 +26,5 @@ while True :
             if word[i] == ans:
                 word_show = word_show[:i] + ans + word_show[i+1:]
             print(word_show)
-        if try_num == 7 : break 
-        if word_show.find("_") == -1: break
+    if try_num == 7 : break 
+    if word_show.find("_") == -1: break
